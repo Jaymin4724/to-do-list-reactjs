@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville:wght@700&family=Ubuntu&display=swap');
+
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Ubuntu', sans-serif; */
+/* https://colorhunt.co/palette/0766ad29adb2c5e898f3f3f3 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xxx-large;
+    color: #0766AD;
+}
+
+.CompletedItems {
+    display: flex;
+    margin: 10px 10%;
+}
+
+.CompletedItemsText {
+    flex: 1;
+    color: #0766AD;
+}
+
+.clearCompletedButton {
+    background-color: aliceblue;
+    border: none;
+    color: red;
+    transition: all ease 0.3s;
+}
+
+.clearCompletedButton:hover {
+    transform: scale(1.03);
+}

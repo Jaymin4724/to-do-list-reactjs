@@ -1,0 +1,33 @@
+.addItemForm {
+    display: flex;
+    gap: 10px;
+    padding: 10px 30px 20px 30px;
+}
+
+.enterNewItem {
+    flex: 3;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: #0766AD;
+    color: #F3F3F3;
+    border: solid #0766AD;
+}
+
+.enterNewItem::placeholder {
+    color: #F3F3F3;
+}
+
+.itemAddButton {
+    flex: 1;
+    border: solid #0766AD;
+    background-color: #F3F3F3;
+    color: #0766AD;
+    padding: 7px;
+    border-radius: 3px;
+    transition: all ease 0.2s;
+}
+
+.itemAddButton:hover {
+    transform: scale(1.02);
+}

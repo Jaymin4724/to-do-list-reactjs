@@ -1,0 +1,48 @@
+/* https://colorhunt.co/palette/df826cf8ffd2d0f2888adab2
+https://colorhunt.co/palette/ff8f8feef2969ade7b508d69 */
+
+.itemcontainer {
+    display: flex;
+    margin: 5px 10%;
+    gap: 10px;
+}
+
+.item {
+    flex: 5;
+    background-color: #29ADB2;
+    color: #F3F3F3;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.itemButtons {
+    flex: 1;
+    display: flex;
+    gap: 4px;
+}
+
+.upButton,
+.downButton,
+.deleteButton,
+.doneButton {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.upButton {
+    background-color: #FF8080;
+}
+
+.downButton {
+    background-color: #FFCF96;
+}
+
+.deleteButton {
+    background-color: #F1EB90;
+    color: red;
+}
+
+.doneButton {
+    background-color: #99B080;
+}
